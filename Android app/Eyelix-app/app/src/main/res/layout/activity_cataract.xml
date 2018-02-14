@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="e.gym.hackeam.CataractActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="cataract"
+        android:textColor="#000"
+        android:id="@+id/cataractTV"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:layout_below="@+id/cataractTV"
+        android:text="cataract con"
+        android:layout_marginTop="20dp"
+        android:id="@+id/cataractCondTV"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

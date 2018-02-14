@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="e.gym.hackeam.MainActivity">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="Check for Glaucoma"
+    android:textSize="20sp"
+    android:layout_marginTop="20dp"
+    android:id="@+id/glaucomaBN"
+    android:layout_marginBottom="10dp"
+    android:textColor="#FFF"
+    android:background="#424242"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#424242"
+        android:textColor="#FFF"
+        android:id="@+id/cataractBN"
+        android:textSize="20sp"
+        android:text="CHECK FOR CATARACT"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE FROM GALLERY:"
+        android:textSize="30sp"
+        android:textColor="#000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Glaucoma (from gallery)"
+        android:textSize="20sp"
+        android:id="@+id/glaucomaBNcfg"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFF"
+        android:background="#004242"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#004242"
+        android:textColor="#FFF"
+        android:id="@+id/cataractBNcfg"
+        android:textSize="20sp"
+        android:text="CATARACT(from gallery)"/>
+
+</LinearLayout>
